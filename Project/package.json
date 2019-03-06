@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "npm run build && npm run watch",
+    "start": "npm run build && npm run buildUI && npm run watch",
     "build": "npm run build-ts && npm run tslint",
     "buildUI": "vue-cli-service build ui\\vue\\main.js --dest ui\\webapp",
     "watch-node": "nodemon ./dist/server.js",
