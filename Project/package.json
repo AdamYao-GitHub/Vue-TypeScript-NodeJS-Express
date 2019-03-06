@@ -43,7 +43,10 @@
     "concurrently": "^4.1.0",
     "eslint": "^5.15.1",
     "eslint-plugin-vue": "^5.2.2",
+    "fiori-fundamentals": "^1.4.3",
+    "node-sass": "^4.11.0",
     "nodemon": "^1.18.10",
+    "sass-loader": "^7.1.0",
     "ts-node": "^8.0.2",
     "tslint": "^5.13.1",
     "tslint-config-prettier": "^1.18.0",
@@ -55,12 +58,17 @@
     "compression": "^1.7.3",
     "errorhandler": "^1.5.0",
     "express": "^4.16.4",
-    "fiori-fundamentals": "^1.4.3",
+    "fundamental-vue": "^0.1.0",
     "lodash": "^4.17.11",
     "moment": "^2.24.0",
     "morgan": "^1.9.1",
     "pg": "^7.8.1",
     "typeorm": "^0.2.14",
     "vue": "^2.6.8"
-  }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
 }
