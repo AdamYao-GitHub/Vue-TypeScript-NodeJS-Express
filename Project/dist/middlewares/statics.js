@@ -15,6 +15,6 @@ const compression_1 = __importDefault(require("compression"));
 const express = __importStar(require("express"));
 exports.default = (app) => {
     app.use(compression_1.default());
-    app.use("/ui", express.static(path_1.default.resolve("./ui")));
+    app.use('/ui', express.static(path_1.default.resolve('./vue')));
 };
 //# sourceMappingURL=statics.js.map
