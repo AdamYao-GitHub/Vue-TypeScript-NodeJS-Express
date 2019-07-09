@@ -1,0 +1,40 @@
+{
+  "name": "VUED_TYPESCRIPT_NODE_WEBPACK",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "devServer": "webpack-dev-server --hot",
+    "dev": "npm run devServer -- --watch"
+  },
+  "browser": {
+    "vue": "vue/dist/vue.common.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdamYao-GitHub/Vue-TypeScript-NodeJS-Express.git"
+  },
+  "author": "Adam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdamYao-GitHub/Vue-TypeScript-NodeJS-Express/issues"
+  },
+  "homepage": "https://github.com/AdamYao-GitHub/Vue-TypeScript-NodeJS-Express#readme",
+  "devDependencies": {
+    "css-loader": "^3.0.0",
+    "file-loader": "^4.0.0",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "vue": "^2.6.10",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "babel-loader": "^8.0.6"
+  }
+}
