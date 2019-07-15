@@ -14,7 +14,7 @@ Step by step buid the application with vue, typescript, nodeSJ, webpack, exoress
 - Express()
 - postgres()
 
-##Initial Evironment
+## Initial Evironment
 
 - Step 1: nodeJS init  
   Run command `npm init` 
